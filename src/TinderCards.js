@@ -8,7 +8,10 @@ const TinderCards = () => {
   const [people, setPeople] = useState(defaultCardState);
 
   useEffect(() => {
-    setPeople(getTinderCards());
+    getTinderCards().then((cards) => {
+      console.dir(cards);
+      setPeople(cards);
+    });
   }, []);
 
   return (
