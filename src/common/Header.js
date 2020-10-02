@@ -20,8 +20,13 @@ const Header = ({ backButton }) => {
         </IconButton>
       ) : (
         <IconButton>
-          {" "}
-          <PersonIcon className="header_icon" fontSize="large" color="action" />
+          <Link to="/userprofile">
+            <PersonIcon
+              className="header_icon"
+              fontSize="large"
+              color="action"
+            />
+          </Link>
         </IconButton>
       )}
       <Link to="/">

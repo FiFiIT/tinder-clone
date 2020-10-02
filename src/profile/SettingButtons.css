@@ -1,0 +1,33 @@
+.settingButtons {
+  padding-top: 40px;
+  /* position: fixed; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconText {
+  display: flex;
+  position: relative;
+}
+
+.settingButtons .settingButton_Settings {
+  background-color: rgb(243, 242, 242);
+}
+
+.settingButtons .settingButton_EditInfo {
+  background-color: rgb(243, 242, 242);
+}
+
+.settingButtons .settingButton_AddFile {
+  background: linear-gradient(rgb(255, 104, 90), rgb(255, 55, 116));
+}
+
+.settingButton_container {
+  /* background-color: lightgreen; */
+  text-align: center;
+}
+
+.addFile {
+  padding-top: 30px;
+}

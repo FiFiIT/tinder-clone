@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import TinderCard from "react-tinder-card";
-import { getTinderCards } from "./api/tinderApi";
+import { getTinderCards } from "../api/tinderApi";
 import "./TinderCards.css";
 
 const TinderCards = () => {

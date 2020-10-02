@@ -8,7 +8,6 @@ import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton";
 
 import "./SwipeButtons.css";
-import { Close } from "@material-ui/icons";
 
 const SwipeButtons = () => {
   return (
