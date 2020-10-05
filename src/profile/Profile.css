@@ -1,0 +1,19 @@
+.tinder_img {
+  position: relative;
+  width: auto !important;
+  height: 80vh;
+}
+
+.down_button_container {
+  position: absolute;
+  left: 70vw;
+  bottom: 2vh;
+}
+
+.profile_down_arrow {
+  /* background-color: linear-gradient(
+    rgb(255, 104, 90),
+    rgb(255, 55, 116)
+  ) !important; */
+  background: linear-gradient(rgb(255, 104, 90), rgb(255, 55, 116)) !important;
+}

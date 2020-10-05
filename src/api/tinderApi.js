@@ -22,7 +22,11 @@ const TINDER_CARDS = [
   },
 ];
 export function getTinderCards() {
-  return new Promise((resolve) => {
-    resolve(TINDER_CARDS);
-  });
+  return new Promise((resolve) => resolve(TINDER_CARDS));
 }
+
+// export function getTinderCards() {
+//   return new Promise((resolve) => {
+//     resolve(TINDER_CARDS);
+//   });
+// }

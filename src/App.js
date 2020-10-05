@@ -8,6 +8,7 @@ import Chats from "./chat/Chats";
 import ChatScreen from "./chat/ChatScreen";
 import "./App.css";
 import SettingButtons from "./profile/SettingButtons";
+import Profile from "./profile/Profile";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
             <Header backButton="/" />
             <UserProfile />
             <SettingButtons />
+          </Route>
+          <Route path="/profile">
+            <Header backButton="/userprofile" />
+            <Profile />
           </Route>
           <Route path="/chat/:person">
             <Header backButton="/chat" />

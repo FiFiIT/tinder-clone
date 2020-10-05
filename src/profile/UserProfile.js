@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
 const UserProfile = () => {
@@ -12,9 +13,11 @@ const UserProfile = () => {
   return (
     <div>
       <div className="userProfileImg">
-        <div className="circular--portrait">
-          <img src={user.mainImg} alt="my pic" />
-        </div>
+        <Link to="/profile">
+          <div className="circular--portrait">
+            <img src={user.mainImg} alt="my pic" />
+          </div>
+        </Link>
       </div>
       <div className="userNameAge">
         {user.name}, {user.age}
